@@ -3,17 +3,9 @@
 #include "Vector.h"
 #include <complex>
 #include "UI.h"
+#include "Tests.h"
 int main() {
-    //SquareMatrix<float>* squareMatrix1 = new SquareMatrix<float>(2);
-    //squareMatrix1->Print_Matrix();
-    //squareMatrix1->EnterMatrix(squareMatrix1->GetDim());
-    //squareMatrix1->Print_Matrix();
-    //squareMatrix->Set(50,2,2);
-    //SquareMatrix<int>* squareMatrix2 = new SquareMatrix<int>(3);
-    //squareMatrix2->EnterMatrix(squareMatrix2->GetDim());
-    //squareMatrix2->Print_Matrix();
-    //squareMatrix1->Sum_Matrix(squareMatrix2);
-    //squareMatrix1->ScalarMult();
+    UI();
     //squareMatrix1=squareMatrix1->Mult_Matrix(squareMatrix2);
     //squareMatrix1->ElemTransformRows(0,1,3);
     //squareMatrix1->Print_Matrix();
